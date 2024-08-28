@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    
+    
+    
+}
+.hero p{
+    font-size: 22px;
+    font-style: italic;
+    padding: 20px;
+
+}
+.hero h1{
+ 
+    font-family: "New Amsterdam", sans-serif; ;
+}
+.hero ,.image ,h1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column ;
+    
+    
+}
+.contact p a{
+    text-decoration: none;
+    color: indianred;
+    font-size: 30px;
+}
+.contact p a:hover{
+    color: blue;
+}
+.contact p a,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+   
